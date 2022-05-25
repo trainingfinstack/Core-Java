@@ -8,6 +8,11 @@ import java.util.Scanner;
 
 public class JavaPrograms {
 
+	//sumProgram
+	static int sum(int a,int b){
+		return a+b;
+	}
+
 	// palindrom number
 
 	static boolean checkPlindrom(int no) {
