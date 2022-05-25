@@ -12,7 +12,10 @@ public class JavaPrograms {
 	static int sum(int a,int b){
 		return a+b;
 	}
-
+	//sumProgram
+	static int div(int a,int b){
+		return a-b;
+	}
 	// palindrom number
 
 	static boolean checkPlindrom(int no) {
