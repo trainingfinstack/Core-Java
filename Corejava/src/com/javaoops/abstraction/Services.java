@@ -5,4 +5,5 @@ public interface Services {
 	int subService(int a,int b);
 	int multService(int a,int b);
 	int divService(int a,int b);
+	int modulous(int a,int b);
 }

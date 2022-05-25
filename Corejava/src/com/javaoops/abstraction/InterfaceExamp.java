@@ -28,6 +28,12 @@ static class ServiceImp implements Services{
 		result=a/b;
 		return result;
 	}
+
+	@Override
+	public int modulous(int a, int b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 }
 	public static void main(String[] args) {
