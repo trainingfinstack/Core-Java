@@ -25,6 +25,7 @@ public class ThreadSquare extends Thread
 	}
 	public static void main(String[] args) 
 	{
+        //implementing the single thread
 		ThreadSquare th1=new ThreadSquare();
 		
 		th1.start();
