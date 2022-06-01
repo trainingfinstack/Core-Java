@@ -9,6 +9,7 @@ public class stringComparison
 		String str4="cetpa";
 		boolean res;
 
+		System.out.println("Comparing these values");
 		
 		res=str1==str2;
 		System.out.println("str1 & str2 comparison");
