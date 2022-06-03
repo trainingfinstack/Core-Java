@@ -1,10 +1,11 @@
 package collections;
 import java.util.*;
 
-public class practiseSet1 
+public class practiseSet1
 {
-    
-		ArrayList<String> str=new ArrayList<>(Arrays.asList("Kanhaiya","Mayank","Rahul","Rajan","Manish","raja"));
+    public static void main(String[] args) 
+    {
+        ArrayList<String> str=new ArrayList<>(Arrays.asList("Kanhaiya","Mayank","Rahul","Rajan","Manish","raja"));
 		ArrayList<String> str1=new ArrayList<>(Arrays.asList("List","Kanhaiya","Loin","Manish","Rinku","Gandhi"));
 		
 		System.out.println(str);
@@ -15,5 +16,7 @@ public class practiseSet1
 		str1.add("Apple");
 		str1.add("Banana");
 		System.out.println(str.addAll(str1));
+        
+    }
     
 }
