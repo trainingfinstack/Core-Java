@@ -1,7 +1,7 @@
 package collections;
 
-import java.util.LinkedList;
 import java.util.*;
+import java.util.LinkedList;
 
 public class LinkedList
 {
@@ -9,7 +9,7 @@ public class LinkedList
     {
         LinkedList<String> list=new LinkedList<String>();
 	    LinkedList<Integer> list1=new LinkedList<Integer>();
-	    ArrayList<String> al1=new ArrayList<String>(20);
+	    
 		list.add("kanhaiya kumar");
 		list.add("Hanuman kumar");
 		list.add("Rahul singh");
