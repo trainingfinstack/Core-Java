@@ -1,0 +1,38 @@
+Java Iterator Interface
+-----------------------
+The Iterator Interface of the Java Collections Framework allows us to access elements of a collection.It has a subinterface ListIterator.
+
+All the Java Collections include an iterator() method. This method returns an instance of iterator used to iterator used to iterate over elements of collections.
+
+Methods of iterator
+-------------------
+
+iterator provides 4 methods that can be used to perform various operations  on element of collections.
+
+hasNext() --->returns True if there exists an element in the Collection
+next()		----->returns the next element of the collection
+remove()	----->removes the last element returned by the next()
+forEachRemaning   ----->performs the specified action for each reamaning element of the collection. inside constructor of forEachRemaning() we need to pass the functional interface.
+
+
+List iterator
+-------------
+ListIterator interface of the Java Collections framework provides the functionality to access elements of a list.
+
+It is bidirectional .This means it allows us to iterate the elements of a list in both the direction.
+
+it extends Iterator Interface.
+
+Methods of ListIterator()
+--------------------------
+hasNext()
+next()
+nextIndex()  	returns the index of the element that next() method will return
+previous()
+previousIndex()
+remove()
+set()     --->replaces the element returned by either next() or previous()
+
+
+
+

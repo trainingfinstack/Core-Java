@@ -1,0 +1,161 @@
+Java Map Interface
+-------------------
+The Map interface of the java Collection framework provides the functionality of the map data structure.
+
+Working of Map
+--------------
+In Java,element of Map are stored in key/value pairs. 
+
+keys are unique values associated keys.And each key is associated with a single value.
+
+	keys	Values
+	----	-------
+	us	united States
+	br	Brazil	
+	es	Spain
+
+We can Access and modify values using the keys associated with them.
+
+In the above diagram, We have Value:United States,Brazil,and Spain.And we have Corresponding keys : us,br and es
+
+Note:the Map interface maintains 3 different sets:
+1)The set of keys
+2)The set of Values
+3)The set of key/value associations(mapping).
+
+Hence we can Access keys,values,and associations individually.
+
+
+Classes that implement Map
+--------------------------
+Since Map is an interface ,We can not create Objects from it.
+
+In order to use functionalities of the Map interface, We can use these classes.
+
+1)HashMap
+2)EnumMap
+3)LinkedHashMap
+4)WeakHashMap
+5)TreeMap
+
+These classes are defined in the Collection FrameWork and implement the Map interface.
+						Map
+					
+HashMap		TreeMap		EnumMap		LinkedHashMap		WeakHashMap
+
+
+interaces that extends Map
+---------------------------
+SortedMap
+NavigableMap
+CocurrentMap
+
+how to use Map
+--------------
+In Java , we mush import the java.util.Map package in order to use Map. Once we import the packagae, here's how we can create a map.
+
+
+syntax
+-------
+Map<key,Value> numbers=new HashMap<>();
+
+
+in the above code we have created a Map  named numbers.We have used the HashMap class to implement the Map interface.
+
+Key
+----
+
+this a unique identifier used to associate each element (value) in a map.
+
+Value
+-----
+
+Elements associated by keys in a map.
+
+
+
+Methods of Map
+--------------
+The Map interface includes all the methods of the collection interface. it is because Collection is a Super interface of Map
+
+few more Mthods of Map
+-----------------------
+1)put(K,V)  :Inserts the association of a key K and a Value V into the map.if the key is already present ,the new value replaces the old value.
+
+2)putAll() :Inserts all the entries from the specified map to this map.
+
+3)putIfAbsent(K,V) :Inserts the association if the key K is not already associated with the value V.
+
+4)get(K) :Returns the Value associated with the specified key K.if the key is not found .it returns null.
+
+5)replace(k,V)
+6)replace(K,OldValue,newValue)
+7)remove(K)
+8)remove(K,V)
+9)keySet()
+10)values()
+11)entrySet()
+
+Implementation of the Map interface
+-------------------------------------
+1.Implementing HashMap Class
+----------------------------
+
+
+
+
+
+
+Hash Map is used to store key and values or key values.similarly linkedHashMap is used to store key and values.
+
+A HashMap will contain HashTable their will be keys and values inside the value
+but in a LinkedHashMAp their will be keys ,values,next,prev inside the hashtable so LinkedHashMap will be using doubly linkdelist so it will contain the pointer of next and previous element also
+
+
+Inside the HashTable elements or keys and values pair is inserted in the HashTable with the help of HashFunction this occurs same with LinkedHashMap also.
+
+h(x)=x%10;
+
+We generally prefer that HashMap and LinkedHashMAp should have load factor as 0.50 i.e 50%.
+
+
+by default size of HashMap and LinkedHashMap (capacity,LoadFactor)   i.e(16,0.75) never use loadfactor=100% because the performance will be reduced.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
