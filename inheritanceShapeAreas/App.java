@@ -8,11 +8,14 @@ public class App
     public static void main(String[] args) 
     {
         Shapes sh=null;
+        System.out.println("==============================================");
         System.out.println("Please choose any one of the Following");
         System.out.println("1.Find the Area of Circle");
         System.out.println("2.Find the Area of Rectangle");
         System.out.println("3.Find the Area of Square");
         System.out.println("4.Find the Area of Cylinder");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
         Scanner sc=new Scanner(System.in);
         System.out.println("please Enter your choice :");
         int ch=sc.nextInt();
@@ -21,6 +24,7 @@ public class App
         {
             case 1:
             {
+                System.out.println("==============================================");
                 System.out.println("please enter the radius =");
                 int r=sc.nextInt();
                 sh=new Circle(r);
@@ -29,8 +33,10 @@ public class App
             }
             case 2:
             {
+                System.out.println("==============================================");
                 System.out.println("please Enter the length =");
                 int l=sc.nextInt();
+                System.out.println("==============================================");
                 System.out.println("please Enter the breadth =");
                 int b=sc.nextInt();
                 sh=new Rectangle(l, b);
@@ -39,6 +45,7 @@ public class App
             }
             case 3:
             {
+                System.out.println("==============================================");
                 System.out.println("please enter the length of side=");
                 int s=sc.nextInt();
                 sh=new Square(s);
@@ -47,8 +54,10 @@ public class App
             }
             case 4:
             {
+                System.out.println("==============================================");
                 System.out.println("Enter radius =");
                 int r=sc.nextInt();
+                System.out.println("==============================================");
                 System.out.println("Enter height =");
                 int h=sc.nextInt();
                 sh=new cylinder(r, h);
