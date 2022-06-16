@@ -24,7 +24,8 @@ public class MyExecution extends Exception
 				}
 			}
 			
-		} catch (Exception e) {
+		}
+		catch (Exception e) {
 			e.printStackTrace();
 		}
 		
